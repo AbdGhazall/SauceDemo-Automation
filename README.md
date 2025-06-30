@@ -1,7 +1,9 @@
 # SauceDemo Automation Testing
 
 This project is an automated testing suite for the [SauceDemo](https://www.saucedemo.com/) web application. It is developed using **Java**, **Selenium WebDriver**, and **TestNG**, and simulates user interactions such as logging in, adding/removing items from the cart, and completing the checkout process.
+
 ---
+
 ## 🛠️ Tools & Frameworks
 
 - **TestNG** – For structuring and prioritizing test cases  
