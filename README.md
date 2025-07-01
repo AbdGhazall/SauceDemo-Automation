@@ -9,7 +9,7 @@ This project is an automated testing suite for the [SauceDemo](https://www.sauce
 - **TestNG** – For structuring and prioritizing test cases  
 - **Selenium WebDriver** – For interacting with the web UI  
 - **EdgeDriver** – Used as the default browser for this test suite  
-- *(Optionally)* **WebDriverManager** – To manage drivers automatically
+- **WebDriverManager** – To manage drivers automatically
 ---
 ## ✅ Features & Test Scenarios
 
