@@ -37,3 +37,8 @@ This project is an automated testing suite for the [SauceDemo](https://www.sauce
 - `Thread.sleep()` is used for wait simulation, but in real-world scenarios, explicit or fluent waits are preferred for reliability.
 - `@BeforeTest` sets up the browser, and `@AfterTest` closes it after test execution.
 - Test priority ensures logical and sequential flow of the test cases.
+
+---
+## 📷 Screenshots
+![SauceDemoOutput](https://github.com/user-attachments/assets/106f1d02-312f-445e-bc40-cfda5bbcfedf)
+
