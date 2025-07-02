@@ -39,6 +39,6 @@ This project is an automated testing suite for the [SauceDemo](https://www.sauce
 - Test priority ensures logical and sequential flow of the test cases.
 
 ---
-## 📷 Screenshots
+## 📸 Screenshots
 ![SauceDemoOutput](https://github.com/user-attachments/assets/106f1d02-312f-445e-bc40-cfda5bbcfedf)
 
