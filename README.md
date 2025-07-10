@@ -48,5 +48,7 @@ This project is an automated testing suite for the [SauceDemo](https://www.sauce
 
 ---
 ## 📸 Screenshots
-![SauceDemoOutput](https://github.com/user-attachments/assets/106f1d02-312f-445e-bc40-cfda5bbcfedf)
+![SauceDemoOutput](https://github.com/user-attachments/assets/106f1d02-312f-445e-bc40-cfda5bbcfedf)   
+![eclipse_aoHI2XXlrS](https://github.com/user-attachments/assets/b27b9696-0e07-4a3a-8894-a3e2781e9dfc)
+
 
