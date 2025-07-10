@@ -47,8 +47,6 @@ public class Practice {
 //		
 //		System.out.println(prices.get(0).getText());
 
-		List<WebElement> AllThePrices = driver.findElements(By.className("inventory_item_price"));
-
 //		System.out.println(AllThePrices.get(0).getText());
 //		System.out.println(AllThePrices.get(1).getText());
 //		System.out.println(AllThePrices.get(2).getText());
@@ -56,22 +54,26 @@ public class Practice {
 //		System.out.println(AllThePrices.get(4).getText());
 //		System.out.println(AllThePrices.get(5).getText());
 
-		for (int i = 0; i < AllThePrices.size(); i++) {
-
-			System.out.println(AllThePrices.get(i).getText());
-		}
+//		for (int i = 0; i < AllThePrices.size(); i++) {
+//
+//			System.out.println(AllThePrices.get(i).getText());
+//		}
 
 		List<WebElement> AllAddbuttons = driver.findElements(By.className("btn_primary"));
+		List<WebElement> ItemsNames = driver.findElements(By.className("inventory_item_name"));
+		List<WebElement> AllThePrices = driver.findElements(By.className("inventory_item_price"));
 
 		for (int i = 0; i < AllAddbuttons.size(); i++) {
+			if (i % 2 == 0) {
+				AllAddbuttons.get(i).click();
+				System.out.println(
+						ItemsNames.get(i).getText() + " has been added the price is " + AllThePrices.get(i).getText());
 
-			if (i == 3 || i == 4) {
-				System.out.println("this item has been skipped");
-
-				continue;
+			} else {
+				System.out.println(ItemsNames.get(i).getText() + " has not been added the price is "
+						+ AllThePrices.get(i).getText());
 			}
 
-			AllAddbuttons.get(i).click();
 		}
 
 	}
