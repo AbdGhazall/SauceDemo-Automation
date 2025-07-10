@@ -31,6 +31,14 @@ This project is an automated testing suite for the [SauceDemo](https://www.sauce
 6. **Logout Test**  
    - Logs the user out via the burger menu.
 
+7. **Add All Items to the Cart (Even-Indexed Only)**  
+   - Iterates over all available products and adds only those with even indexes to the cart.  
+   - Prints the name and price of each product and logs whether it was added or not based on its index.
+
+8. **(Commented) Dynamic Price Handling (Optional)**  
+   - Includes optional logic (currently commented) to collect product prices dynamically into a list.  
+   - Can be used for advanced validations, like total price calculations or conditional filtering based on price.
+
 ---
 ## 📌 Notes
 
